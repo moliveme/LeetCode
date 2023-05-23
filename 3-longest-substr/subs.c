@@ -76,7 +76,53 @@ int lengthOfLongestSubstring1(char * s){
 
 }
 
+// trying O(2n)
+// yay i can successfully work sets in c
 
+int lengthOfLongestSubstring(char * s) {
+        
+    int n = strlen(s);
+
+    printf("n %d\n", n);
+
+    int max = 0;
+    int cur_l = 0;
+    int l = 0;
+    int r = 0;
+    char set_of_all_chars[95];
+
+    for (int i = 0; i < 95; i++) {
+        set_of_all_chars[i] = '\0';
+    }
+
+    char temp = s[l];
+
+    for (int r = 0; r < n; r++) {
+
+        if (set_of_all_chars[s[r] % 95] == s[r]) {
+            // update l, remove from set
+            while (s[l] != s[r]) {
+                set_of_all_chars[s[l] % 95] = '\0';
+                l++;
+            }
+            l++;
+        }
+        else {
+            // add to set
+            set_of_all_chars[s[r] % 95] = s[r];
+        }
+
+        cur_l = r - l + 1;
+
+        if (cur_l > max) {
+            max = cur_l;
+        }
+
+    }
+
+    return max;
+
+}
 
 int main() {
     char *s = "abcde";
