@@ -7,7 +7,7 @@
  * Note: The returned array must be malloced, assume caller calls free().
  */
 #define TRUE (1)
-#define FALSE (2)
+#define FALSE (0)
 
 typedef struct el {
     int num;
