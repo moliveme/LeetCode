@@ -14,6 +14,8 @@ Given a string s, find the length of the longest substring without repeating cha
 
 4. 4-kth-largest-el
 
+Design a class to find the kth largest element in a stream. Note that it is the kth largest element in the sorted order, not the kth distinct element.
+
 5. 5-check-straight-line
 
 You are given an array coordinates, coordinates[i] = [x, y], where [x, y] represents the coordinate of a point. Check if these points make a straight line in the XY plane.
