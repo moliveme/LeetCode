@@ -11,3 +11,7 @@ Implement pow(x, n), which calculates x raised to the power n.
 3. 3-longest-substr
 
 Given a string s, find the length of the longest substring without repeating characters. 3 solutions produced each with O(N^3), O(2N) AND O(N)
+
+4. 4-kthlargest
+
+5. 5-
