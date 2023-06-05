@@ -12,6 +12,8 @@ Implement pow(x, n), which calculates x raised to the power n.
 
 Given a string s, find the length of the longest substring without repeating characters. 3 solutions produced each with O(N^3), O(2N) AND O(N)
 
-4. 4-kthlargest
+4. 4-kth-largest-el
 
-5. 5-
+5. 5-check-straight-line
+
+You are given an array coordinates, coordinates[i] = [x, y], where [x, y] represents the coordinate of a point. Check if these points make a straight line in the XY plane.
