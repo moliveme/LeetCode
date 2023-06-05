@@ -19,3 +19,7 @@ Design a class to find the kth largest element in a stream. Note that it is the 
 5. 5-check-straight-line
 
 You are given an array coordinates, coordinates[i] = [x, y], where [x, y] represents the coordinate of a point. Check if these points make a straight line in the XY plane.
+
+6. 6-two-sum
+
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
