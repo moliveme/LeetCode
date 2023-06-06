@@ -14,7 +14,7 @@ Given a string s, find the length of the longest substring without repeating cha
 
 4. 4-kth-largest-el
 
-Design a class to find the kth largest element in a stream. Note that it is the kth largest element in the sorted order, not the kth distinct element.
+Design a class to find the kth largest element in a stream. Note that it is the kth largest element in the sorted order, not the kth distinct element. Incomplete.
 
 5. 5-check-straight-line
 
@@ -22,4 +22,4 @@ You are given an array coordinates, coordinates[i] = [x, y], where [x, y] repres
 
 6. 6-two-sum
 
-Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. Complete: solution with O(n^2). Incomplete: solution with O(nlogn).
