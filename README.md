@@ -23,3 +23,7 @@ You are given an array coordinates, coordinates[i] = [x, y], where [x, y] repres
 6. 6-two-sum
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. Complete: solution with O(n^2). Incomplete: solution with O(nlogn).
+
+7. 7-can-make-ap
+
+Given an array of numbers arr, return true if the array can be rearranged to form an arithmetic progression. Otherwise, return false.
