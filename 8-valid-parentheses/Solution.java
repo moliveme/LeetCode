@@ -19,7 +19,12 @@ class Solution {
 
             } else { // if closed, pop and compare
 
-                popped = STACK.pop();
+                try {
+                    popped = STACK.pop();
+                } catch (EmptyStackException e) {
+                    return false;
+                }
+                
                 if ((s_arr[i] - popped != 1) &&
                     (s_arr[i] - popped != 2)) {
 
@@ -29,6 +34,6 @@ class Solution {
 
             }
         }
-        return STACK.empty();
+        return STACK.isEmpty();
     }
 }
