@@ -42,6 +42,6 @@ Every close bracket has a corresponding open bracket of the same type.
 
 Write a function to find the longest common prefix string amongst an array of strings.
 
-11. 10-min-flips
+10. 10-min-flips
 
 Given 3 positives numbers a, b and c. Return the minimum flips required in some bits of a and b to make ( a OR b == c ). (bitwise OR operation).
