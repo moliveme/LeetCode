@@ -45,3 +45,9 @@ Write a function to find the longest common prefix string amongst an array of st
 10. 10-min-flips
 
 Given 3 positives numbers a, b and c. Return the minimum flips required in some bits of a and b to make ( a OR b == c ). (bitwise OR operation).
+
+11. 11-negatives-in-matrix
+
+Given a m x n matrix grid which is sorted in non-increasing order both row-wise and column-wise, return the number of negative numbers in grid.
+
+
