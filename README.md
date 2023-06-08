@@ -48,6 +48,6 @@ Given 3 positives numbers a, b and c. Return the minimum flips required in some 
 
 11. 11-negatives-in-matrix
 
-Given a m x n matrix grid which is sorted in non-increasing order both row-wise and column-wise, return the number of negative numbers in grid.
+Given a m x n matrix grid which is sorted in non-increasing order both row-wise and column-wise, return the number of negative numbers in grid. Did O(nm) and O(n + m)
 
 
