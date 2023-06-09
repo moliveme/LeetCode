@@ -50,7 +50,7 @@ Given 3 positives numbers a, b and c. Return the minimum flips required in some 
 
 Given a m x n matrix grid which is sorted in non-increasing order both row-wise and column-wise, return the number of negative numbers in grid. Did O(nm) and O(n + m)
 
-12. 12-smallest-letter-greater-than-target
+12. [12-smallest-letter-greater-than-target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/)
 
 You are given an array of characters letters that is sorted in non-decreasing order, and a character target. There are at least two different characters in letters.
 
