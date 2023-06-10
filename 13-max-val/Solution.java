@@ -29,7 +29,7 @@ class Solution {
 */
 
 // gives the right answer but exceeds time limit
-    public int maxValue(int n, int index, int maxSum) {
+    public int maxValue2(int n, int index, int maxSum) {
 
         int to_distribute = maxSum - n;
         int left_index = index - 1;
@@ -51,5 +51,10 @@ class Solution {
         }
 
         return max;
+    }
+
+    public int maxValue3(int n, int index, int maxSum) {
+
+        return 0;
     }
 }
