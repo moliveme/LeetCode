@@ -56,4 +56,16 @@ You are given an array of characters letters that is sorted in non-decreasing or
 
 Return the smallest character in letters that is lexicographically greater than target. If such a character does not exist, return the first character in letters.
 
+13. [13-max-value](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/description/)
+
+You are given three positive integers: n, index, and maxSum. You want to construct an array nums (0-indexed) that satisfies the following conditions:
+
+nums.length == n
+nums[i] is a positive integer where 0 <= i < n.
+abs(nums[i] - nums[i+1]) <= 1 where 0 <= i < n-1.
+The sum of all the elements of nums does not exceed maxSum.
+nums[index] is maximized.
+Return nums[index] of the constructed array.
+
+Note that abs(x) equals x if x >= 0, and -x otherwise.
 
