@@ -22,7 +22,11 @@ class SnapshotArray {
     
     public int snap() {
 
-        snapshots.push(this.ar);
+        int[] temp = new int[this.ar.length];
+        for (int i = 0; i < this.ar.length; i++) {
+            temp[i] = this.ar[i];
+        }
+        snapshots.push(temp);
 
         return this.snapshots.size() - 1;
         
