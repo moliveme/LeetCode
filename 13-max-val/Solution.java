@@ -53,7 +53,7 @@ class Solution {
         return max;
     }
 
-    public int maxValue3(int n, int index, int maxSum) {
+    public int maxValue(int n, int index, int maxSum) {
 
         return 0;
     }
