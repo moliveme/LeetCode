@@ -78,7 +78,7 @@ void set(index, val) sets the element at the given index to be equal to val.
 int snap() takes a snapshot of the array and returns the snap_id: the total number of times we called snap() minus 1.
 int get(index, snap_id) returns the value at the given index, at the time we took the snapshot with the given snap_id
 
-15. [15-smallest-range](https://leetcode.com/problems/summary-ranges/)
+15. [15-smallest-ranges](https://leetcode.com/problems/summary-ranges/)
 
 
 
