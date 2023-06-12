@@ -80,6 +80,6 @@ int get(index, snap_id) returns the value at the given index, at the time we too
 
 15. [15-smallest-ranges](https://leetcode.com/problems/summary-ranges/)
 
-
+Did O(N).
 
 
