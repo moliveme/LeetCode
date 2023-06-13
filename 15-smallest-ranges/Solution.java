@@ -8,15 +8,16 @@ class Solution {
 
         for (int i = 0; i < nums.length; i++) {
 
-            start = nums[i];
-
-            if (nums[i + 1] != nums[i] + 1) {
+            if ((i == nums.length - 1) || (nums[i + 1] != nums[i] + 1)) {
                 end = nums[i];
                 if (start != end) {
+                    System.out.println("if" + Integer.toString(start) + "->" + Integer.toString(end));
                     res.add(Integer.toString(start) + "->" + Integer.toString(end));
                 } else {
+                    System.out.println("else" + Integer.toString(start));
                     res.add(Integer.toString(start));
                 }
+                start = nums[i + 1];
             }
 
         }
