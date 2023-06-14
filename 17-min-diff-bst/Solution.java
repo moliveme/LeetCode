@@ -17,6 +17,14 @@
 class Solution {
     public int getMinimumDifference(TreeNode root) {
 
+        // base
+        // if left and right null, return 0
+        // if left null, return |root - right|
+        // if right null, return |left - root|
+
+        // recursive
+        // compare |root - right| and |left - root|
+        // if 1 > 2, 
         return 0;
     }
 }
