@@ -1,6 +1,6 @@
 import java.lang.Double;
 
-class Solution {
+class CheckStraightLine {
     public boolean checkStraightLine(int[][] coordinates) {
         
         int n = coordinates.length;
